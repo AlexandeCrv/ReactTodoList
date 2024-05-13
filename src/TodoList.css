@@ -1,0 +1,637 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap'); 
+
+body{
+    background-color: #222435;
+    font-family:'Pixelify Sans', sans-serif;
+    color: white;
+    background-image: url(https://images.alphacoders.com/113/1130469.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+
+    
+}
+
+
+*:focus{
+    outline: none;
+}
+
+
+h1{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    
+    
+}
+
+h2{
+
+    color: white;
+    text-align: center;
+    margin-top: 320px;
+}
+
+.form{
+   display: flex;
+   justify-content: center;
+  
+    width: 1300px;
+    margin:30px ;
+    
+   
+    
+  
+}
+
+
+
+
+
+
+input{
+    
+    width: 600px;
+    height: 40px;
+    background-color: #2d3046;
+    border: none;
+    padding-left: 30px;
+    font-size: 16px;
+    border-radius: 10px;
+    color: white;
+    font-family:'Pixelify Sans', sans-serif;
+  
+    
+}
+
+.add{
+    margin-left: 450px;
+    position: absolute;
+    background-color: #363b65;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 10px 25px;
+    height: 42px;
+    border-top-right-radius: 10px;
+    font-family:'Pixelify Sans', sans-serif;
+    border-bottom-right-radius: 10px;
+}
+.add:hover{
+    color: white;
+    background-color: #363788;
+}
+
+select{
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    margin-left: 20px;
+    font-family:'Pixelify Sans', sans-serif;
+    background-color:#2d3046;
+  color: aliceblue;
+  padding-left: 10px;
+}
+
+@media screen and (max-width: 900px){
+
+    form{
+        width: 100%;
+    }
+    lista-tarefas{
+        width: 100%;
+    }
+}
+
+.lista-tarefas{
+  
+ 
+    flex-flow: column wrap;
+    width: 1200px;
+    height: 500px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.233);
+    border-radius: 10px;
+    
+   
+}
+
+.primeirasclasses{
+display: flex;
+justify-content: space-around;
+text-align: center;
+
+}
+
+.border{
+    border-radius: 10px;
+    
+   
+    
+}
+
+
+
+
+    
+.ancorab{
+    display: flex;
+    flex-direction: column;
+   
+   
+ }
+ 
+ .geral{
+    height: 30px;
+     width: 100px;
+     cursor: pointer;
+     margin: auto;
+     margin-top: 10px;
+     border-radius: 10PX;
+     border: none;   
+     background-color: #043247;
+     color: white;
+ }
+ 
+ .geral:hover{
+    background-color: rgb(0, 0, 0);
+    transition: 1.2;
+ }
+  
+.modal-overlay{
+    background-color: rgba(0, 0, 0, 0.589);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom:  0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  
+}
+
+.md{
+   background-color: rgba(245, 245, 245, 0.856);
+    width: 700px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.modalh1{
+    color: black;
+    font-size: 40px;
+  
+}
+
+.gifb{
+    width:  250px;
+    border-radius: 10px;
+}
+
+.btnx{
+    background-color: black;
+   margin-top: 10px;
+   margin-left: 10px;
+   border: none;
+   cursor: pointer;
+   border-radius: 5px;
+   width: 30px;
+padding: 5px;
+   color: white;
+
+}
+
+.btn:hover{
+    color: rgba(0, 0, 0, 0);
+    transition: 0.2;
+}
+
+.topo{
+    display: flex;
+    justify-content: space-between;
+   
+    
+
+}
+
+
+.coit{
+    display: flex;
+    justify-content: space-around;
+}
+
+.descriçoes{
+
+color: black;
+line-height: 1px;
+width: 300px;
+
+
+}
+
+p{
+    font-size: 18px;
+    
+}
+
+.imgtop{
+    
+    margin-right: 340px;
+    text-align: center;
+    margin-top: 10px;
+    
+}
+
+.a{
+
+    display: flex;
+    flex-direction: row;
+}
+
+.img{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    color: black;
+    text-align: center;
+   
+}
+
+
+
+.pbarra{
+    background-color: #222435;
+    margin-top: 40px;
+    height: 20px;
+    width: 150px;
+   border-radius: 10px;
+   margin-left: 15px;
+   position: relative;
+}
+
+
+
+.barraBH{
+ 
+    height: 100%;
+    width: 80%;
+    background-color: rgb(114, 173, 19);
+   border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px ;
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
+    position: absolute;
+    text-align: center;
+    line-height: 16px;
+ 
+  
+}
+
+.barraBA{
+    height: 100%;
+    width: 45%;
+    background-color: rgb(114, 173, 19);
+   border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px ;
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
+    position: absolute;
+    text-align: center;
+    line-height: 16px;
+    color: rgba(255, 255, 255, 0.822);
+}
+
+.barraBD{
+    height: 100%;
+    width: 80%;
+    background-color: rgb(114, 173, 19);
+   border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px ;
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
+    position: absolute;
+    text-align: center;
+    line-height: 16px;
+}
+
+.barraBS{
+    height: 100%;
+    color: white;
+    width: 0%;
+    background-color: rgb(114, 173, 19);
+   border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px ;
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
+    position: absolute;
+    text-align: center;
+    line-height: 16px;
+    
+
+}
+
+.barraBM{
+    background-color: rgb(114, 173, 19);
+    height: 100%;
+    width: 30%;
+    margin: auto;
+    color: white;
+   border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px ;
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
+    position: absolute;
+    text-align: center;
+    line-height: 16px;
+}
+
+strong{
+    width: 100px;
+}
+
+.qf0{
+width: 140px;
+
+}
+.qf10{
+    width: 140px;
+}
+
+.barraTH{
+    height: 100%;
+    width: 90%;
+    background-color: rgb(114, 173, 19);
+   border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px ;
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
+    position: absolute;
+    text-align: center;
+    line-height: 16px;
+}
+
+.barraTA{
+    height: 100%;
+    width: 90%;
+    background-color: rgb(114, 173, 19);
+   border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px ;
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
+    position: absolute;
+    text-align: center;
+    line-height: 16px;
+    
+}
+
+.barraTD{
+    height: 100%;
+    width: 10%;
+    background-color: rgb(114, 173, 19);
+   border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px ;
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
+    position: absolute;
+    text-align: center;
+    line-height: 16px;
+    color: white;
+
+}
+
+.barraTS{
+    height: 100%;
+    width: 40%;
+    background-color: rgb(114, 173, 19);
+   border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px ;
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
+    position: absolute;
+    text-align: center;
+    line-height: 16px;
+    color: white;
+}
+
+.barraTM{
+    height: 100%;
+    width: 10%;
+    background-color: rgb(114, 173, 19);
+   border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px ;
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
+    position: absolute;
+    text-align: center;
+    line-height: 16px;
+    color: white;
+}
+
+.barraPH{
+    height: 100%;
+    width: 65%;
+    background-color: rgb(114, 173, 19);
+   border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px ;
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
+    position: absolute;
+    text-align: center;
+    line-height: 16px;
+}
+
+.barraPA{
+    height: 100%;
+    width: 53%;
+    background-color: rgb(114, 173, 19);
+   border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px ;
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
+    position: absolute;
+    text-align: center;
+    line-height: 16px;
+}
+
+.barraPHI{
+
+    height: 100%;
+    width: 50%;
+    background-color: rgb(114, 173, 19);
+   border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px ;
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
+    position: absolute;
+    text-align: center;
+    line-height: 16px;
+    color: rgba(255, 255, 255, 0.788);
+}
+
+.barraPS{
+    height: 100%;
+    width: 58%;
+    background-color: rgb(114, 173, 19);
+   border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px ;
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
+    position: absolute;
+    text-align: center;
+    line-height: 16px;
+    color: rgba(255, 255, 255, 0.788);
+
+}
+
+.barraPM{
+    height: 100%;
+    width: 20%;
+    background-color: rgb(114, 173, 19);
+   border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px ;
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
+    position: absolute;
+    text-align: center;
+    line-height: 16px;
+    color: rgba(255, 255, 255, 0.788);
+
+}
+
+.barraWH{
+    height: 100%;
+    width: 38%;
+    background-color: rgb(114, 173, 19);
+   border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px ;
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
+    position: absolute;
+    text-align: center;
+    line-height: 16px;
+    color: rgba(255, 255, 255, 0.788);
+}
+
+.barraWA{
+    height: 100%;
+    width: 33%;
+    background-color: rgb(114, 173, 19);
+   border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px ;
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
+    position: absolute;
+    text-align: center;
+    line-height: 16px;
+    color: rgba(255, 255, 255, 0.788);
+}
+
+.barraWM{
+    height: 100%;
+    width: 60%;
+    background-color: rgb(114, 173, 19);
+   border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px ;
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
+    position: absolute;
+    text-align: center;
+    line-height: 16px;
+    color: rgba(255, 255, 255, 0.788);
+}
+
+.barraWS{
+    height: 100%;
+    width: 18%;
+    background-color: rgb(114, 173, 19);
+   border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px ;
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
+    position: absolute;
+    text-align: center;
+    line-height: 16px;
+    color: rgba(255, 255, 255, 0.788);
+}
+
+.barraHH{
+    height: 100%;
+    width: 45%;
+    background-color: rgb(114, 173, 19);
+   border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px ;
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
+    position: absolute;
+    text-align: center;
+    line-height: 16px;
+    color: rgba(255, 255, 255, 0.788);
+    
+}
+
+.barraHA{
+
+    height: 100%;
+    width: 29%;
+    background-color: rgb(114, 173, 19);
+   border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px ;
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
+    position: absolute;
+    text-align: center;
+    line-height: 16px;
+    color: rgba(255, 255, 255, 0.788);
+}
+
+.barraHM{
+    height: 100%;
+    width: 25%;
+    background-color: rgb(114, 173, 19);
+   border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px ;
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
+    position: absolute;
+    text-align: center;
+    line-height: 16px;
+    color: rgba(255, 255, 255, 0.788);
+}
+
+.barraHS{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(114, 173, 19);
+   border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px ;
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
+    position: absolute;
+    text-align: center;
+    line-height: 16px;
+    color: rgba(255, 255, 255, 0.788);
+}
+
+.barraHM{
+    height: 100%;
+    width: 45%;
+    background-color: rgb(114, 173, 19);
+   border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px ;
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
+    position: absolute;
+    text-align: center;
+    line-height: 16px;
+    color: rgba(255, 255, 255, 0.788);
+}
+
+.bibiu{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
